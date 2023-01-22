@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F37D02297DF53400FF4F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F37D01297DF53400FF4F4B /* AppDelegate.swift */; };
+		F9F37D04297DF53400FF4F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F37D03297DF53400FF4F4B /* ViewController.swift */; };
+		F9F37D07297DF53400FF4F4B /* MexiAppLib__Mac_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9F37D05297DF53400FF4F4B /* MexiAppLib__Mac_.xcdatamodeld */; };
+		F9F37D09297DF53500FF4F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F37D08297DF53500FF4F4B /* Assets.xcassets */; };
+		F9F37D0C297DF53500FF4F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F37D0A297DF53500FF4F4B /* Main.storyboard */; };
+		F9F37D17297DF53600FF4F4B /* MexiAppLib__Mac_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F37D16297DF53600FF4F4B /* MexiAppLib__Mac_Tests.swift */; };
+		F9F37D21297DF53600FF4F4B /* MexiAppLib__Mac_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F37D20297DF53600FF4F4B /* MexiAppLib__Mac_UITests.swift */; };
+		F9F37D23297DF53600FF4F4B /* MexiAppLib__Mac_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F37D22297DF53600FF4F4B /* MexiAppLib__Mac_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9F37D13297DF53600FF4F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F37CF6297DF53400FF4F4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F37CFD297DF53400FF4F4B;
+			remoteInfo = "MexiAppLib (Mac)";
+		};
+		F9F37D1D297DF53600FF4F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F37CF6297DF53400FF4F4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F37CFD297DF53400FF4F4B;
+			remoteInfo = "MexiAppLib (Mac)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9F37CFE297DF53400FF4F4B /* MexiAppLib (Mac).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MexiAppLib (Mac).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F37D01297DF53400FF4F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9F37D03297DF53400FF4F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9F37D06297DF53400FF4F4B /* MexiAppLib__Mac_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MexiAppLib__Mac_.xcdatamodel; sourceTree = "<group>"; };
+		F9F37D08297DF53500FF4F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F37D0B297DF53500FF4F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F37D0D297DF53500FF4F4B /* MexiAppLib__Mac_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MexiAppLib__Mac_.entitlements; sourceTree = "<group>"; };
+		F9F37D12297DF53600FF4F4B /* MexiAppLib (Mac)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MexiAppLib (Mac)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F37D16297DF53600FF4F4B /* MexiAppLib__Mac_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexiAppLib__Mac_Tests.swift; sourceTree = "<group>"; };
+		F9F37D1C297DF53600FF4F4B /* MexiAppLib (Mac)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MexiAppLib (Mac)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F37D20297DF53600FF4F4B /* MexiAppLib__Mac_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexiAppLib__Mac_UITests.swift; sourceTree = "<group>"; };
+		F9F37D22297DF53600FF4F4B /* MexiAppLib__Mac_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexiAppLib__Mac_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F37CFB297DF53400FF4F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F37D0F297DF53600FF4F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F37D19297DF53600FF4F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F37CF5297DF53400FF4F4B = {
+			isa = PBXGroup;
+			children = (
+				F9F37D00297DF53400FF4F4B /* MexiAppLib (Mac) */,
+				F9F37D15297DF53600FF4F4B /* MexiAppLib (Mac)Tests */,
+				F9F37D1F297DF53600FF4F4B /* MexiAppLib (Mac)UITests */,
+				F9F37CFF297DF53400FF4F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F37CFF297DF53400FF4F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F37CFE297DF53400FF4F4B /* MexiAppLib (Mac).app */,
+				F9F37D12297DF53600FF4F4B /* MexiAppLib (Mac)Tests.xctest */,
+				F9F37D1C297DF53600FF4F4B /* MexiAppLib (Mac)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F37D00297DF53400FF4F4B /* MexiAppLib (Mac) */ = {
+			isa = PBXGroup;
+			children = (
+				F9F37D01297DF53400FF4F4B /* AppDelegate.swift */,
+				F9F37D03297DF53400FF4F4B /* ViewController.swift */,
+				F9F37D08297DF53500FF4F4B /* Assets.xcassets */,
+				F9F37D0A297DF53500FF4F4B /* Main.storyboard */,
+				F9F37D0D297DF53500FF4F4B /* MexiAppLib__Mac_.entitlements */,
+				F9F37D05297DF53400FF4F4B /* MexiAppLib__Mac_.xcdatamodeld */,
+			);
+			path = "MexiAppLib (Mac)";
+			sourceTree = "<group>";
+		};
+		F9F37D15297DF53600FF4F4B /* MexiAppLib (Mac)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F37D16297DF53600FF4F4B /* MexiAppLib__Mac_Tests.swift */,
+			);
+			path = "MexiAppLib (Mac)Tests";
+			sourceTree = "<group>";
+		};
+		F9F37D1F297DF53600FF4F4B /* MexiAppLib (Mac)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F37D20297DF53600FF4F4B /* MexiAppLib__Mac_UITests.swift */,
+				F9F37D22297DF53600FF4F4B /* MexiAppLib__Mac_UITestsLaunchTests.swift */,
+			);
+			path = "MexiAppLib (Mac)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F37CFD297DF53400FF4F4B /* MexiAppLib (Mac) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F37D26297DF53600FF4F4B /* Build configuration list for PBXNativeTarget "MexiAppLib (Mac)" */;
+			buildPhases = (
+				F9F37CFA297DF53400FF4F4B /* Sources */,
+				F9F37CFB297DF53400FF4F4B /* Frameworks */,
+				F9F37CFC297DF53400FF4F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MexiAppLib (Mac)";
+			productName = "MexiAppLib (Mac)";
+			productReference = F9F37CFE297DF53400FF4F4B /* MexiAppLib (Mac).app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F37D11297DF53600FF4F4B /* MexiAppLib (Mac)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F37D29297DF53600FF4F4B /* Build configuration list for PBXNativeTarget "MexiAppLib (Mac)Tests" */;
+			buildPhases = (
+				F9F37D0E297DF53600FF4F4B /* Sources */,
+				F9F37D0F297DF53600FF4F4B /* Frameworks */,
+				F9F37D10297DF53600FF4F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F37D14297DF53600FF4F4B /* PBXTargetDependency */,
+			);
+			name = "MexiAppLib (Mac)Tests";
+			productName = "MexiAppLib (Mac)Tests";
+			productReference = F9F37D12297DF53600FF4F4B /* MexiAppLib (Mac)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9F37D1B297DF53600FF4F4B /* MexiAppLib (Mac)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F37D2C297DF53600FF4F4B /* Build configuration list for PBXNativeTarget "MexiAppLib (Mac)UITests" */;
+			buildPhases = (
+				F9F37D18297DF53600FF4F4B /* Sources */,
+				F9F37D19297DF53600FF4F4B /* Frameworks */,
+				F9F37D1A297DF53600FF4F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F37D1E297DF53600FF4F4B /* PBXTargetDependency */,
+			);
+			name = "MexiAppLib (Mac)UITests";
+			productName = "MexiAppLib (Mac)UITests";
+			productReference = F9F37D1C297DF53600FF4F4B /* MexiAppLib (Mac)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F37CF6297DF53400FF4F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F9F37CFD297DF53400FF4F4B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F9F37D11297DF53600FF4F4B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F9F37CFD297DF53400FF4F4B;
+					};
+					F9F37D1B297DF53600FF4F4B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F9F37CFD297DF53400FF4F4B;
+					};
+				};
+			};
+			buildConfigurationList = F9F37CF9297DF53400FF4F4B /* Build configuration list for PBXProject "MexiAppLib (Mac)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F37CF5297DF53400FF4F4B;
+			productRefGroup = F9F37CFF297DF53400FF4F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F37CFD297DF53400FF4F4B /* MexiAppLib (Mac) */,
+				F9F37D11297DF53600FF4F4B /* MexiAppLib (Mac)Tests */,
+				F9F37D1B297DF53600FF4F4B /* MexiAppLib (Mac)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F37CFC297DF53400FF4F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F37D09297DF53500FF4F4B /* Assets.xcassets in Resources */,
+				F9F37D0C297DF53500FF4F4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F37D10297DF53600FF4F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F37D1A297DF53600FF4F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F37CFA297DF53400FF4F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F37D04297DF53400FF4F4B /* ViewController.swift in Sources */,
+				F9F37D02297DF53400FF4F4B /* AppDelegate.swift in Sources */,
+				F9F37D07297DF53400FF4F4B /* MexiAppLib__Mac_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F37D0E297DF53600FF4F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F37D17297DF53600FF4F4B /* MexiAppLib__Mac_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F37D18297DF53600FF4F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F37D21297DF53600FF4F4B /* MexiAppLib__Mac_UITests.swift in Sources */,
+				F9F37D23297DF53600FF4F4B /* MexiAppLib__Mac_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9F37D14297DF53600FF4F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F37CFD297DF53400FF4F4B /* MexiAppLib (Mac) */;
+			targetProxy = F9F37D13297DF53600FF4F4B /* PBXContainerItemProxy */;
+		};
+		F9F37D1E297DF53600FF4F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F37CFD297DF53400FF4F4B /* MexiAppLib (Mac) */;
+			targetProxy = F9F37D1D297DF53600FF4F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9F37D0A297DF53500FF4F4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F37D0B297DF53500FF4F4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F37D24297DF53600FF4F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9F37D25297DF53600FF4F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F9F37D27297DF53600FF4F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MexiAppLib (Mac)/MexiAppLib__Mac_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PNABBA4QW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Rook.MexiAppLib--Mac-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9F37D28297DF53600FF4F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MexiAppLib (Mac)/MexiAppLib__Mac_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PNABBA4QW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Rook.MexiAppLib--Mac-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F9F37D2A297DF53600FF4F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PNABBA4QW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Rook.MexiAppLib--Mac-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MexiAppLib (Mac).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MexiAppLib (Mac)";
+			};
+			name = Debug;
+		};
+		F9F37D2B297DF53600FF4F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PNABBA4QW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Rook.MexiAppLib--Mac-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MexiAppLib (Mac).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MexiAppLib (Mac)";
+			};
+			name = Release;
+		};
+		F9F37D2D297DF53600FF4F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PNABBA4QW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Rook.MexiAppLib--Mac-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MexiAppLib (Mac)";
+			};
+			name = Debug;
+		};
+		F9F37D2E297DF53600FF4F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PNABBA4QW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Rook.MexiAppLib--Mac-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MexiAppLib (Mac)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F37CF9297DF53400FF4F4B /* Build configuration list for PBXProject "MexiAppLib (Mac)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F37D24297DF53600FF4F4B /* Debug */,
+				F9F37D25297DF53600FF4F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F37D26297DF53600FF4F4B /* Build configuration list for PBXNativeTarget "MexiAppLib (Mac)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F37D27297DF53600FF4F4B /* Debug */,
+				F9F37D28297DF53600FF4F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F37D29297DF53600FF4F4B /* Build configuration list for PBXNativeTarget "MexiAppLib (Mac)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F37D2A297DF53600FF4F4B /* Debug */,
+				F9F37D2B297DF53600FF4F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F37D2C297DF53600FF4F4B /* Build configuration list for PBXNativeTarget "MexiAppLib (Mac)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F37D2D297DF53600FF4F4B /* Debug */,
+				F9F37D2E297DF53600FF4F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9F37D05297DF53400FF4F4B /* MexiAppLib__Mac_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9F37D06297DF53400FF4F4B /* MexiAppLib__Mac_.xcdatamodel */,
+			);
+			currentVersion = F9F37D06297DF53400FF4F4B /* MexiAppLib__Mac_.xcdatamodel */;
+			path = MexiAppLib__Mac_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9F37CF6297DF53400FF4F4B /* Project object */;
+}
