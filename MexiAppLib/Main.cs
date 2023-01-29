@@ -1,4 +1,5 @@
 ﻿using MexiAppLib.Properties;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -59,7 +60,15 @@ namespace MexiAppLib
             appFlowPanel.VerticalScroll.Visible = false;
             populateAppList();
             populateSidebar();
-        }
+
+            var startTimeSpan = TimeSpan.Zero;
+            var periodTimeSpan = TimeSpan.FromMinutes(10);
+
+            var timer = new System.Threading.Timer((e) =>
+            {
+                doUpdate();
+            }, null, startTimeSpan, periodTimeSpan);
+    }
 
         private void topBar_MouseDown(object sender, MouseEventArgs e)
         {
@@ -67,6 +76,52 @@ namespace MexiAppLib
             {
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+            }
+        }
+
+        private void doUpdate()
+        {
+            //Gets raw data from the project
+            System.Net.WebClient wc = new System.Net.WebClient();
+
+            //Using this in a try/catch so the program won't crash if there is no internet.
+            byte[] raw = wc.DownloadData("https://raw.githubusercontent.com/MexiMoo/MexiAppLib/master/MexiAppLib/MexiAppLib.csproj");
+
+            string webData = System.Text.Encoding.UTF8.GetString(raw);
+
+            //Extracts one line
+            string GetLine(string text, int lineNo)
+            {
+                string[] lines = text.Replace("\r", "").Split('\n');
+                return lines.Length >= lineNo ? lines[lineNo - 1] : null;
+            }
+
+            //Filters out the junk
+            int startPos = webData.LastIndexOf("    <Version>") + "    <Version>".Length;
+            int length = webData.IndexOf("</Version>") - startPos;
+            string onlineAppVersion = webData.Substring(startPos, length);
+
+            //Will ry to receive data from the app that is stored
+            RegistryKey key = Registry.CurrentUser.OpenSubKey(@"MRO");
+            if (key != null)
+            {
+                var AppIsInstalled = key.GetValue("SMPbetaInstalled");
+                var AppVersion = key.GetValue("Version");
+                key.Close();
+
+                //Removes unused revision number from version
+                string appVersionLocalRaw = (string)AppVersion.ToString();
+                string appVersionLocal = appVersionLocalRaw.Remove(appVersionLocalRaw.Length - 2);
+
+                //Compares the versions
+                if (appVersionLocal != onlineAppVersion)
+                {
+                    updatePanel.Visible = true;
+                }
+                else
+                {
+                    //Do nothing
+                }
             }
         }
 
@@ -78,7 +133,7 @@ namespace MexiAppLib
             pageControl.SelectedTab = UpdateSCRN;
             wSpacer1.Visible = false;
             wSpacer4.Visible = false;
-            pageControl.Size = new System.Drawing.Size(1361, 944);
+            pageControl.Size = new System.Drawing.Size(2210, 1506);
         }
 
         private void populateAppList()
