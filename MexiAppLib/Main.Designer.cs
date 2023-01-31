@@ -65,9 +65,9 @@
             this.page2FrameSpacer1 = new System.Windows.Forms.Panel();
             this.page2FrameTop = new System.Windows.Forms.Panel();
             this.UpdateSCRN = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.sdbr.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tabPanel.SuspendLayout();
@@ -354,6 +354,7 @@
             this.updateAppClose.TabIndex = 0;
             this.updateAppClose.Text = "X";
             this.updateAppClose.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.updateAppClose.Click += new System.EventHandler(this.updateAppClose_Click);
             this.updateAppClose.MouseClick += new System.Windows.Forms.MouseEventHandler(this.updateAppClose_MouseClick);
             this.updateAppClose.MouseLeave += new System.EventHandler(this.updateAppClose_MouseLeave);
             this.updateAppClose.MouseHover += new System.EventHandler(this.label2_MouseHover);
@@ -491,15 +492,12 @@
             this.UpdateSCRN.TabIndex = 2;
             this.UpdateSCRN.Text = "UpdateSCRN";
             // 
-            // pictureBox1
+            // progressBar1
             // 
-            this.pictureBox1.Image = global::MexiAppLib.Properties.Resources.Load;
-            this.pictureBox1.Location = new System.Drawing.Point(927, 686);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(376, 345);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.progressBar1.Location = new System.Drawing.Point(927, 623);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(376, 46);
+            this.progressBar1.TabIndex = 2;
             // 
             // label2
             // 
@@ -512,12 +510,15 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Installing update...";
             // 
-            // progressBar1
+            // pictureBox1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(927, 623);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(376, 46);
-            this.progressBar1.TabIndex = 2;
+            this.pictureBox1.Image = global::MexiAppLib.Properties.Resources.Load;
+            this.pictureBox1.Location = new System.Drawing.Point(927, 686);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(376, 345);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Main
             // 

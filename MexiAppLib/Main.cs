@@ -38,10 +38,10 @@ namespace MexiAppLib
 
         #region AppListData
         //Title
-        string[] titleData = { "SMPbeta Launcher", "PC Lister", "Test2" };
+        string[] titleData = { "SMPbeta Launcher", "16 Bit Translator", "Test2" };
 
         //Version
-        string[] versionData = { "1.2.42", "ALPHA 1.0", "TestVersion2" };
+        string[] versionData = { "1.2.42", "1.0.0", "TestVersion2" };
 
         //Image
         string[] imageData = { "" };
@@ -97,8 +97,8 @@ namespace MexiAppLib
             }
 
             //Filters out the junk
-            int startPos = webData.LastIndexOf("    <Version>") + "    <Version>".Length;
-            int length = webData.IndexOf("</Version>") - startPos;
+            int startPos = webData.LastIndexOf("    <AssemblyVersion>") + "    <AssemblyVersion>".Length;
+            int length = webData.IndexOf("</AssemblyVersion>") - startPos;
             string onlineAppVersion = webData.Substring(startPos, length);
 
             //Will ry to receive data from the app that is stored
@@ -243,8 +243,11 @@ namespace MexiAppLib
         {
             updatePanel.Visible = false;
             wSpacer3.Visible = false;
-            sdbr.Visible = false;
-            pageControl.SelectedTab = Page2;
+        }
+
+        private void updateAppClose_Click(object sender, EventArgs e)
+        {
+            //none
         }
     }
 }
