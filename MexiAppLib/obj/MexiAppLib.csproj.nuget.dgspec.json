@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxro\\source\\repos\\MexiAppLib\\MexiAppLib\\MexiAppLib.csproj": {}
+    "C:\\Users\\maxro\\Source\\Repos\\MexiMoo\\MexiAppLib\\MexiAppLib\\MexiAppLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxro\\source\\repos\\MexiAppLib\\MexiAppLib\\MexiAppLib.csproj": {
+    "C:\\Users\\maxro\\Source\\Repos\\MexiMoo\\MexiAppLib\\MexiAppLib\\MexiAppLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxro\\source\\repos\\MexiAppLib\\MexiAppLib\\MexiAppLib.csproj",
+        "projectUniqueName": "C:\\Users\\maxro\\Source\\Repos\\MexiMoo\\MexiAppLib\\MexiAppLib\\MexiAppLib.csproj",
         "projectName": "MexiAppLib",
-        "projectPath": "C:\\Users\\maxro\\source\\repos\\MexiAppLib\\MexiAppLib\\MexiAppLib.csproj",
+        "projectPath": "C:\\Users\\maxro\\Source\\Repos\\MexiMoo\\MexiAppLib\\MexiAppLib\\MexiAppLib.csproj",
         "packagesPath": "C:\\Users\\maxro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxro\\source\\repos\\MexiAppLib\\MexiAppLib\\obj\\",
+        "outputPath": "C:\\Users\\maxro\\Source\\Repos\\MexiMoo\\MexiAppLib\\MexiAppLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
